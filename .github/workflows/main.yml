@@ -8,6 +8,7 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    environment: production  # Specify the environment name here
 
     steps:
     - name: Checkout code
